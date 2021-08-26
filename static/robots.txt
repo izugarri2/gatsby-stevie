@@ -1,0 +1,11 @@
+User-agent: Mediapartners-Google
+User-agent: *
+Disallow:
+Disallow: /Monitor.html
+Disallow: /Monitor2.html
+Disallow: /pu/
+Disallow: /en/pu.html
+Disallow: /en/puA.html
+Disallow: /en/puB.html
+sitemap: https://www.steviewonder.es/sitemap.xml
+
