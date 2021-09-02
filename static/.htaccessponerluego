@@ -1,0 +1,6 @@
+RewriteEngine on
+<IfModule mod_rewrite.c>
+ErrorDocument 404 http://www.steviewonder.es/paginadeerror.html
+</IfModule>
+
+
