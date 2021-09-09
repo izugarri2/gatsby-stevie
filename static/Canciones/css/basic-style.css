@@ -351,6 +351,8 @@ template {
 /*! FIN normalize.css 8 | */
 
 
+
+
 /*
 Simple Responsive Template v 1.2
 
@@ -368,13 +370,13 @@ BASE (MOBILE) SIZE
 
 /* typography */
 body{
-	background: #000000 url(https://cdn.steviewonder.es/images/Stevie-fondo.jpg) no-repeat center center fixed;
+	background: #000000 url(https://sites.google.com/site/steviewondersoul/simplyred-inicio/Fondo2.jpg) no-repeat center center fixed;
 	color:#FFFFFF;
 	font-family:'Ubuntu', Arial, Helvetica, sans-serif; 
 	font-size:1em;
 	line-height:1.4em; 
 	font-weight:normal;
-	border-top: 1px solid #13237F;
+	border-top: 1px solid #F50307;
 }
 h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
@@ -383,19 +385,13 @@ h1, h2, h3, h4, h5, h6{
 	margin:.45em 0;
 	padding:0;
 } 
-h7 {
-	font-size: 26px;
 
-}
 
 iframe.ytb-embed {
 max-width: 96% !important;
 display: block;
 margin: 10px auto;
 }
-
-/* cookies css*/
-.cc_banner-wrapper{z-index:9001;position:relative}.cc_container .cc_btn{cursor:pointer;text-align:center;font-size:0.6em;transition:font-size 200ms;line-height:1em}.cc_container .cc_message{font-size:0.6em;transition:font-size 200ms;margin:0;padding:0;line-height:1.5em}.cc_container .cc_logo{display:none;text-indent:-1000px;overflow:hidden;width:100px;height:22px;background-size:cover;opacity:0.9;transition:opacity 200ms}.cc_container .cc_logo:hover,.cc_container .cc_logo:active{opacity:1}@media screen and (min-width: 500px){.cc_container .cc_btn{font-size:0.8em}.cc_container .cc_message{font-size:0.8em}}@media screen and (min-width: 768px){.cc_container .cc_btn{font-size:1em}.cc_container .cc_message{font-size:1em;line-height:1em}}@media screen and (min-width: 992px){.cc_container .cc_message{font-size:1em}}@media print{.cc_banner-wrapper,.cc_container{display:none}}.cc_container{position:fixed;left:0;right:0;bottom:0;overflow:hidden;padding:5px}.cc_container .cc_btn{padding:8px 10px;background-color:#f1d600;cursor:pointer;transition:font-size 200ms;text-align:center;font-size:0.6em;display:block;width:33%;margin-left:5px;float:right;max-width:120px}.cc_container .cc_message{transition:font-size 200ms;font-size:0.6em;display:block}@media screen and (min-width: 500px){.cc_container .cc_btn{font-size:0.8em}.cc_container .cc_message{margin-top:0.5em;font-size:0.8em}}@media screen and (min-width: 768px){.cc_container{padding:15px 30px 15px}.cc_container .cc_btn{font-size:1em;padding:8px 15px}.cc_container .cc_message{font-size:1em}}@media screen and (min-width: 992px){.cc_container .cc_message{font-size:1em}}.cc_container{background:#222;opacity:0.8;color:#fff;font-size:17px;font-weight: bold;text-align:center;font-family:"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;box-sizing:border-box}.cc_container ::-moz-selection{background:#ff5e99;color:#fff;text-shadow:none}.cc_container .cc_btn,.cc_container .cc_btn:visited{color:#000;background-color:#f1d600;transition:background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;-webkit-transition:background 200ms ease-in-out,color 200ms ease-in-out,box-shadow 200ms ease-in-out;border-radius:5px;-webkit-border-radius:5px}.cc_container .cc_btn:hover,.cc_container .cc_btn:active{background-color:#fff;color:#000}.cc_container a,.cc_container a:visited{text-decoration:none;color:#31a8f0;transition:200ms color}.cc_container a:hover,.cc_container a:active{color:#b2f7ff}@-webkit-keyframes slideUp{0%{-webkit-transform:translateY(66px);transform:translateY(66px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes slideUp{0%{-webkit-transform:translateY(66px);-ms-transform:translateY(66px);transform:translateY(66px)}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}}.cc_container,.cc_message,.cc_btn{animation-duration:0.8s;-webkit-animation-duration:0.8s;-moz-animation-duration:0.8s;-o-animation-duration:0.8s;-webkit-animation-name:slideUp;animation-name:slideUp}
 
 /* links */
 /* añadido para dar color amarillo a los links sin raya abajo */
@@ -417,16 +413,22 @@ a:hover{color:#0099ff;}
 a:hover{ text-decoration:none;} */
 
 
-/* Box sizing. Awesome thing. Read about it here: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
+
+
+/* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 *{	box-sizing:border-box;
 	-moz-box-sizing:border-box;}
 
   
 /* structure */   
 .wrapper{
+
 	width: 92%; 
 	margin: 0 auto;
-}	
+}
+
+
+	
 header{ 
 	padding:15px 0;
 }
@@ -449,6 +451,7 @@ header{
 	margin-top:0px;
 	margin-bottom:10px;
 	color: #FFFF99;}
+
 
 #content {  
 	margin:40px 0;
@@ -537,31 +540,28 @@ img{ max-width:100%; max-height:100%;}
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
 .grid_1,
 .grid_2,
-.grid_2a,
 .grid_3,
-.grid_3a,
-.grid_3b,
 .grid_4,
 .grid_5,
 .grid_6,
-.grid_6b,
 .grid_7,
 .grid_8,
 .grid_9,
 .grid_10,
 .grid_11,
-.grid_11a,
 .grid_12 {
 	margin-bottom:30px;
 	/*positioning and padding*/
 	position: relative;
     min-height: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding:0px 10px;
 }
 
+
+
 /*FOOTER*/
-footer{	
+footer{
+	
     text-align: center;
 	clear:both;
 	font-size:80%;
@@ -574,7 +574,7 @@ footer ul{
 
 /*colors and backgrounds*/
 body{
-	background: #000000 url(https://cdn.steviewonder.es/images/Stevie-fondo.jpg) no-repeat center center fixed;
+	background: #000000 url(https://sites.google.com/site/steviewondersoul/simplyred-inicio/Fondo2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -589,7 +589,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 footer{ 
-	text-align: center;
 	background:#333;
 	color:#ccc;
 }
@@ -604,7 +603,7 @@ footer ul{
 a.buttonlink{ 
 	background:#0099ff; 
 	border-radius:7px; 
-	color:#fff;
+	color:#000;
 	display:block;
 	float:left; 
 	margin:10px 15px 10px 0; 
@@ -623,6 +622,8 @@ a.buttonlink:hover{
 	color:#fff;
 }
 
+
+
 /* Contain floats*/ 
 .clearfix:before,
 .clearfix:after,
@@ -637,14 +638,17 @@ a.buttonlink:hover{
   clear: both;
 }
 
+
 /*
 LARGER MOBILE DEVICES
 This is for mobile devices with a bit larger screens.
 */
+
 @media only screen and (min-width: 290px) {
-.play a:hover {display:block; text-decoration: none; background-color:#BD1515;}
+
 
 }
+
 @media only screen and (min-width: 481px) {
 #banner{
 	float:left;
@@ -656,6 +660,7 @@ This is for mobile devices with a bit larger screens.
 	float:right;
 }
 
+
 } 
 
 /*
@@ -663,60 +668,15 @@ TABLET & SMALLER LAPTOPS
 The average viewing window and preferred media query for those is 768px.
 But I think that some more breathing space is good:)
 */
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 1250px) {
-
-#expanse{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-    display: none;
-}
-#expanse2{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-
-}
-}
-@media only screen and (max-width: 1320px) {
-
-#expanse2{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-    display: none;
-}
-}
-@media only screen and (max-width: 919px) {
-
-#expanse{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-    display: none;
-}
-}
 @media only screen and (min-width: 920px) {
 
-#expanse{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-
-}
-
 .wrapper{
-	max-width: 1400px; 
+	max-width: 1200px; 
 	margin: .75em auto;
 }
 
 #banner{ 
-	float:left; 
+	
 	text-align:left;
 	margin-bottom:0px;
 }
@@ -731,6 +691,7 @@ header{
 	float:none;
 	width:100%;
 }
+
 
 aside { 
 	float:right;
@@ -800,11 +761,11 @@ ul.srt-menu li li li.sfHover ul {
 /*** DEMO1 SKIN MENU NAVEGACION PARA ACCEDER A LAS PÁGINAS***/
 #topnav, .srt-menu {
 	float:left;
-	margin: .35em 0 0 1.85em;
+	margin: .35em 0 .25em .85em;
 }
 .srt-menu a {
 	text-decoration:none;
-	font-size:1.2em; /* TAMAÑO LETRA MENU NAVEGACION*/
+	font-size:1.4em; /* TAMAÑO LETRA MENU NAVEGACION*/
 }
 .srt-menu li a {
 	background:#BD1515; /* COLOR FONDO MENU NAVEGACION*/
@@ -822,6 +783,7 @@ ul.srt-menu li li li.sfHover ul {
 		color:	#fff;
 		padding-left:20px;
 		height:auto;
+		
 }
 .srt-menu li li a:visited{color:#fff;}
 .srt-menu li li li a,
@@ -840,26 +802,21 @@ ul.srt-menu li li li.sfHover ul {
 	background:#0099ff;
 }
 
+
+
 /*GRID*/
 /*
  & Columns : 12 
 
  */
- 
-.grid_2a,
-.grid_10a {
-	float: left;
-	display: block;
-}
  .row{
-	 margin-left: 5px;
-     margin-right: 5px;
+	 margin-left: 15px;
+     margin-right: 15px;
 	 margin-bottom: 30px;
 }
  
 .grid_1 { width: 8.33333333%; }
 .grid_2 { width: 16.66666667%; }
-.grid_2a { width: 16.66666667%; }
 .grid_3 { width: 25%; }
 .grid_4 { width: 33.33333333%; }
 .grid_5 { width: 41.66666667%; }
@@ -868,11 +825,8 @@ ul.srt-menu li li li.sfHover ul {
 .grid_8 { width: 66.66666667%; }
 .grid_9 { width: 75%; }
 .grid_10 { width: 83.33333333%; }
-.grid_10a { width: 83.33333333%; }
 .grid_11 { width: 91.66666667%; }
 .grid_12 { width: 100%; }
-.grid_1a { width: 1%; }
-.grid_11a { width: 98%; }
 
 .grid_1,
 .grid_2,
@@ -888,7 +842,6 @@ ul.srt-menu li li li.sfHover ul {
 .grid_12 {
 	float: left;
 	display: block;
-	font-size: 18px;
 }
 
 .rightfloat{float:right;}
@@ -898,12 +851,16 @@ ul.srt-menu li li li.sfHover ul {
 #hero [class*="grid_"] { margin-bottom:-20px;}
 
 }
-@media only screen and (min-width: 1200px) {
 
-}
-@media only screen and (min-width: 1400px) {
+/*
+DESKTOP
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*/
+@media only screen and (min-width: 980px) {
 
-}
+} 
 
 /*
 LARGE VIEWING SIZE
@@ -911,7 +868,7 @@ This is for the larger monitors and possibly full screen viewers.
 */
 @media only screen and (min-width: 980px) {
 
-}
+} 
 
 /*
 RETINA (2x RESOLUTION DEVICES)
@@ -933,6 +890,7 @@ iPhone 5 or iPod Touch 5th generation styles (you can include your own file if y
 
   
 }
+
 @media only screen and (max-width: 700px) { 
 
 .video {

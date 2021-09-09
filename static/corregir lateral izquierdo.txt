@@ -1,4 +1,0 @@
-			  <div id="expanse2">
-<center><img src="images/Logo.png" title="Stevie Wonder Genius" alt="Un genio Stevie Wonder"/><img src="images/Logo.png" title="Stevie Wonder Genius" alt="Un genio Stevie Wonder"/><img src="images/Logo.png" title="Stevie Wonder Genius" alt="Un genio Stevie Wonder"/></center>
-
-</div>	

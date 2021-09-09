@@ -1,0 +1,11 @@
+stm_bm(["menu34df",720,"/Menu","blank.gif",0,"","",0,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand","/Menu/"],this);
+stm_bp("p0",[0,4,0,0,0,3,0,0,100,"progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,enabled=0,Duration=1.00)",-2,"",-2,10,0,0,"#7F7F7F","#000000","",3,0,0,"#000000"]);
+stm_ai("p0i0",[0,"Inicio","","",-1,-1,0,"index.html","_self","","","","",0,0,0,"","",0,0,0,0,1,"#000000",0,"#FF0000",0,"","",3,3,1,1,"#FFFF00 #FFFF00 #FFFF33","#FFFFFF","#FFCC00","#FFCC00","bold 12pt Arial","bold 12pt Arial",0,0]);
+stm_ai("p0i1",[6,2,"#FFFF00","",-1,-1,0]);
+stm_aix("p0i2","p0i0",[0,"Biografía","","",-1,-1,0,"Biografia.html","_self","","","","",0,0,0,"","",0,0,0,0,1,"#000000",0,"#FF0000",0,"","",3,3,1,1,"#FFFF00"]);
+stm_aix("p0i3","p0i1",[6,1]);
+stm_aix("p0i4","p0i2",[0,"Discografía","","",-1,-1,0,"discografia.html"]);
+stm_aix("p0i5","p0i3",[]);
+stm_aix("p0i6","p0i0",[0,"Videos","","",-1,-1,0,"videos.html"]);
+stm_ep();
+stm_em();
