@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-stevie",
-  "version": "1.0.0",
+  "name": "gatsby-starter-blog",
   "private": true,
-  "description": "gatsby-stevie",
-  "author": "Izugarri",
+  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -22,8 +22,8 @@
     "gatsby-remark-prismjs": "^5.8.0",
     "gatsby-remark-responsive-iframe": "^4.8.0",
     "gatsby-remark-smartypants": "^4.8.0",
-    "gatsby-source-filesystem": "^3.13.0",
-    "gatsby-transformer-remark": "^4.10.0",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-remark": "^4.8.0",
     "gatsby-transformer-sharp": "^3.11.0",
     "prismjs": "^1.24.1",
     "react": "^17.0.1",
