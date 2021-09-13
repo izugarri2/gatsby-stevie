@@ -3,5 +3,5 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
-ErrorDocument 404 http://www.steviewonder.es/paginadeerror.html
+ErrorDocument 404 https://videos.videomusica.es/paginadeerror.html
 </IfModule>
