@@ -1,3 +1,0 @@
-User-agent: *
-sitemap: http://videos.videomusica.es/sitemap.xml
-
