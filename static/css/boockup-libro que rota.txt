@@ -1,0 +1,183 @@
+@-webkit-keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@keyframes rotatingAnimationX {
+  0%{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotatingAnimationY {
+  0%{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@keyframes rotatingAnimationZ {
+  0%{
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(225, 61, 61, 1);
+  background: lightyellow;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #4a4a4a;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: .1em;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.container > div {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.boockup {
+  -webkit-transform: rotateX(-127deg) rotateY(-49deg) rotateZ(0deg);
+  transform: rotateX(-127deg) rotateY(-49deg) rotateZ(0deg);
+}
+.book-container {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: 14s rotatingAnimationX linear infinite;
+  animation: 14s rotatingAnimationX linear infinite;
+}
+.book-container > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.book-top, .book-bottom, .book-side-right {
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-position: top left;
+}
+.book-front {
+  background-image: url('../images/book-cover.png');
+  width: 418.5px;
+  height: 641.7px;
+  -webkit-transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(0,0,0) rotateY(0deg);
+  transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(0,0,0) rotateY(0deg);
+}
+.book-side-left {
+  background-image: url('../images/book-spine.png');
+  width: 69.75px;
+  height: 641.7px;
+  -webkit-transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(-34.875px, 0, -34.875px) rotateY(-90deg);
+  transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(-34.875px, 0, -34.875px) rotateY(-90deg);
+}
+.book-side-right {
+  background-image: url('../images/book-side.jpg');
+  width: 69.75px;
+  height: 641.7px;
+  -webkit-transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(383.625px, 0px,-34.875px) rotateY(90deg);
+  transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(383.625px, 0px,-34.875px) rotateY(90deg);
+}
+.book-top {
+  background-image: url('../images/book-top.jpg');
+  background-position: bottom right;
+  width: 418.5px;
+  height: 69.75px;
+  -webkit-transform: translate3d(-209.25px, -320.85px ,34.875px) translate3d(0px, -34.875px, -34.875px) rotateX(90deg);
+  transform: translate3d(-209.25px, -320.85px ,34.875px) translate3d(0px, -34.875px, -34.875px) rotateX(90deg);
+}
+.book-bottom {
+  background-image: url('../images/book-top.jpg');
+  width: 418.5px;
+  height: 69.75px;
+  -webkit-transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(0px, 606.825px, -34.875px) rotateX(-90deg);
+  transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(0px, 606.825px, -34.875px) rotateX(-90deg);
+}
+.book-back {
+  background-image: url('../images/book-back.png');
+  width: 418.5px;
+  height: 641.7px;
+  -webkit-transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(0,0, -69.75px) rotateY(180deg);
+  transform: translate3d(-209.25px ,-320.85px ,34.875px) translate3d(0,0, -69.75px) rotateY(180deg);
+}
+
+
+
+
+
+<link rel="stylesheet" href="css/boockup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="boockup">
+      <div class="book-container">
+        <div class="book-front"></div>
+        <div class="book-side-left"></div>
+        <div class="book-side-right"></div>
+        <div class="book-top"></div>
+        <div class="book-bottom"></div>
+        <div class="book-back"></div>
+      </div>
+    </div>
+  </div>
+</body>
