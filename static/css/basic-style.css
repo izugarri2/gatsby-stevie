@@ -668,47 +668,25 @@ But I think that some more breathing space is good:)
 
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1290px) {
 
-#expanse{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-    display: none;
-}
-#expanse2{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-
-}
-}
-@media only screen and (max-width: 1320px) {
 
 #expanse2{ 
 	margin-bottom:0px;
 	width: 100%;
     height: 60px;
-    display: none;
-}
-}
-@media only screen and (max-width: 919px) {
 
+}
+}
+
+
+@media only screen and (max-width: 1150px) {
 #expanse{ 
 	margin-bottom:0px;
 	width: 100%;
     height: 60px;
-    display: none;
-}
-}
-@media only screen and (min-width: 920px) {
+   }
 
-#expanse{ 
-	margin-bottom:0px;
-	width: 100%;
-    height: 60px;
-
-}
 
 .wrapper{
 	max-width: 1400px; 
