@@ -5,5 +5,5 @@
  */
 
 module.exports = {
-  pathPrefix: `/static`,
+  pathPrefix: `/`,
 }
