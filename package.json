@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    {
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
