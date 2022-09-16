@@ -3,4 +3,7 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+module.exports = {
+  pathPrefix: '/reponame',
+};
 
