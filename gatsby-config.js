@@ -4,14 +4,22 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 module.exports = {
-  plugins: [
+    plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/static`,
         name: `static`,
-        path: `${__dirname}/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/`,
+        name: ``,
+      },
+    },
+    ...
   ],
 }
 
