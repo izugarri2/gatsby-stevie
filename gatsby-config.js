@@ -10,12 +10,6 @@ module.exports = {
     "gatsby-plugin-react-svg",
     "gatsby-plugin-sitemap",
     {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/images/favicon.svg",
-      },
-    },
-    {
       resolve: "gatsby-plugin-mdx",
       options: {
         gatsbyRemarkPlugins: [
