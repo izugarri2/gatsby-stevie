@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.steviewonder.es`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [],
 }
