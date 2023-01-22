@@ -1,55 +1,35 @@
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://bobmcc.dev",
-    title: "bobmcc",
+    title: `new`,
+    siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [
-    {
-    resolve: `gatsby-transformer-remark`,
+  plugins: [{
+    resolve: 'gatsby-source-contentful',
     options: {
-      plugins: [`gatsby-remark-responsive-iframe`],
+      "accessToken": "",
+      "spaceId": ""
+    }
+  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-google-gtag", "gatsby-plugin-sitemap", {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      "icon": "src/images/icon.png"
+    }
+  }, "gatsby-plugin-mdx", "gatsby-transformer-remark", {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "images",
+      "path": "./src/images/"
     },
-    "gatsby-plugin-styled-components",
-    "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-react-svg",
-    "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-mdx",
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: {
-              elements: ["h1"],
-            },
-          },
-        ],
-      },
+    __key: "images"
+  }, {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "pages",
+      "path": "./src/pages/"
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
-    },
-    {
-      resolve: `gatsby-plugin-theme-ui`,
-      options: {
-        preset: "@theme-ui/preset-deep",
-      },
-    },
-  ],
+    __key: "pages"
+  }]
 };
