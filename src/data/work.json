@@ -1,0 +1,50 @@
+[
+  { 
+    "icon": "../images/work/bumper.png",
+    "title": "Bumper",
+    "subtitle": "Frontend Engineer",
+    "period": "July 2022 - Current",
+    "location": "London, United Kingdom",
+    "specialization": "ReactJS; NextJS; JavaScript; TypeScript; TailwindCSS; Saas; Figma;"
+  },
+  { 
+    "icon": "../images/work/ghost_company.png",
+    "title": "Freelance",
+    "subtitle": "Freelance Frontend Engineer",
+    "period": "October 2021 - Current",
+    "location": "No location based",
+    "specialization": "ReactJS; GatsbyJS; NextJS; JavaScript; TypeScript; GraphQL; Saas; Bootstrap; Figma;"
+  },
+  {
+    "icon": "../images/work/proto.png",
+    "title": "Proto Software",
+    "subtitle": "Software Engineer",
+    "period": "September 2021 - June 2022",
+    "location": "Istanbul, Turkey",
+    "specialization": "React; Next.js; Gatsby.js; JavaScript; TypeScript; Webpack; Sass; TailwindCSS; react-bootstrap; Sketch"
+  },
+  {
+    "icon": "../images/work/proto.png",
+    "title": "Proto Software",
+    "subtitle": "Software Engineer Intern",
+    "period": "July 2021 - September 2021",
+    "location": "Istanbul, Turkey",
+    "specialization": "ReactJS; JavaScript; TypeScript; Docker; Java; Spring Boot; Hibernate; Mockito"
+  },
+  {
+    "icon": "../images/work/makesosimple.png",
+    "title": "makeSOsimple",
+    "subtitle": "Frontend Developer",
+    "period": "March 2021 - June 2021",
+    "location": "Istanbul, Turkey",
+    "specialization": "ReactJS; GatsbyJS; React-Native; Apache Cordova"
+  },
+  {
+    "icon": "../images/work/infinia.png",
+    "title": "Infinia Engineering",
+    "subtitle": "Volunteer Intern",
+    "period": "July 2019 - August 2019",
+    "location": "Ankara, Turkey",
+    "specialization": "Unity 3D; Edge Blending; Projection Mapping"
+  }
+]

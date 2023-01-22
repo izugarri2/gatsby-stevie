@@ -1,22 +1,40 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/main.scss';
+import React from "react";
+import Wrapper from "../components/Wrapper";
+import AboutMe from "../sections/AboutMe";
+import Qualifications from "../sections/Qualifications";
+import Education from "../sections/Education";
+import Footer from "../sections/Footer";
+import Hero from "../sections/Hero";
+import Projects from "../sections/Projects";
+import Resume from "../sections/Resume";
+import Skills from "../sections/Skills";
+import Work from "../sections/Work";
+import styles from "./index.module.css";
+import Music from "../sections/Music";
 
-export default () => {
-  const { title, lang, description } = headData;
-
+const IndexPage = () => {
   return (
-    <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
-      </Helmet>
-      <App />
-    </>
+    <Wrapper>
+      <div className={`container ${styles.layout}`}>
+        <Hero />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <div className={styles.workEducation}>
+          <Work />
+          <Education />
+        </div>
+        <div className={styles.achievementsCertificationPhilanthropy}>
+          <div>
+            <Qualifications />
+          </div>
+        </div>
+        <Resume />
+        <Music />
+        <Footer />
+      </div>
+    </Wrapper>
   );
 };
+
+export default IndexPage;

@@ -1,0 +1,44 @@
+[
+  {
+    "image": "../images/projects/moviecatalog.png",
+    "title": "Movie Catalog",
+    "description":"A Movie Catalog App alike IMDB, made with ReactJS and TMDB API",
+    "tags": ["react", "hooks", "TMDB", "api"], 
+    "github":"https://github.com/bilgehangecici/ReactJS-MovieCatalog"
+  },
+  {
+    "image": "../images/projects/weatherapp.png",
+    "title": "Weather App",
+    "description": "A Weather App made with ReactJS, WeatherStack API, Unplash API, POSTMAN",
+    "tags": ["react", "unplash", "weatherstack", "api", "postman"],
+    "website": "https://github.com/bilgehangecici/ReactJS-WeatherApp"
+  },
+  {
+    "image": "../images/projects/spotify.png",
+    "title": "Spotify Clone",
+    "description": "Spotify Clone App made with ReactJS, Spotify Web API, Material-UI, Context API",
+    "tags": ["spotify", "react", "hooks", "Context API"],
+    "github": "https://github.com/bilgehangecici/ReactJS-Spotify-Clone"
+  },
+  {
+    "image": "../images/projects/management.png",
+    "title": "Technical Service Management System",
+    "description": "A Fullstack Management System made with ReactJS, NextJS, NodeJS, ExpressJS, Microsoft Azure Database and POSTMAN",
+    "tags": ["react", "node", "express", "azure", "postman"],
+    "github": "https://github.com/bilgehangecici/Technical-Service-Management-System"
+  },
+  {
+    "image": "../images/projects/puzzle.png",
+    "title": "Mushroom Meshwork",
+    "description": "A mini puzzle game written in java with JavaFx framework.",
+    "tags": ["java", "puzzle", "mario", "fx"],
+    "github": "https://github.com/bilgehangecici/Mushroom-Meshwork"
+  },
+  {
+    "image": "../images/projects/netflix.png",
+    "title": "Netflix Clone",
+    "description": "Netflix Clone App made with React-Hooks React-Youtube and React-Movie-Trailer",
+    "tags": ["netflix", "react", "hooks", "youtube", "trailer"],
+    "github": "https://github.com/bilgehangecici/ReactJS-Netflix-Clone"
+  }
+]

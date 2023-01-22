@@ -1,0 +1,23 @@
+[
+  {
+    "title":"Udemy - JavaScript Algorithms and Data Structures Masterclass",
+    "subtitle": "Fundemantal and Advanced Data Structures and Algorithms"
+  },
+  {
+    "title": "HackerRank – JavaScript Certificate",
+    "subtitle": "Fundementals of Javascript and more"
+  },
+  {
+    "title": "freeCodeCamp – Responsive Web Design",
+    "subtitle": "Advanced HTML5, CSS3, Flexbox, Grid and more"
+  },
+  
+  {
+    "title": "Agile Development",
+    "subtitle": "Scrum, Waterfall, and more"
+  },
+  {
+    "title": "Revisioning System",
+    "subtitle": "Git"
+  }
+]
