@@ -9,7 +9,7 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "",
+      "accessToken": "1",
       "spaceId": ""
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-google-gtag", "gatsby-plugin-sitemap", {
@@ -17,7 +17,7 @@ module.exports = {
     options: {
       "icon": "src/images/icon.png"
     }
-  }, "gatsby-plugin-mdx", "gatsby-transformer-remark", {
+  }, "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
