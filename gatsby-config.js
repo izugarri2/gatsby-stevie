@@ -10,14 +10,6 @@ module.exports = {
     "gatsby-plugin-react-svg",
     "gatsby-plugin-sitemap",
     {
-    options: {
-      headers: {"/*": [ 
-         'Referrer-Policy: strict-origin-when-cross-origin'
-         'mergeSecurityHeaders: false'
-       ]},
-      allPageHeaders: {[
-      "Strict-Transport-Security: max-age=31536022; includeSubDomains; preload",
-    ]},
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/favicon.svg",
