@@ -4,6 +4,11 @@ module.exports = {
     title: "bobmcc",
   },
   plugins: [
+    {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [`gatsby-remark-responsive-iframe`],
+    },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
