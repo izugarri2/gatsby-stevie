@@ -1,128 +1,64 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import Helmet from "../components/helmet/helmet";
+import { Box, Link, Text, Themed } from "theme-ui";
+import MainLayout from "../components/layouts/mainLayout";
+import Section from "../components/section/section";
+import Skills from "../components/skills/skills";
+import Age from "../components/age/age";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+const IndexPage = () => {
+  return (
+    <MainLayout>
+      <Helmet title="About" />
+      <Box>
+        <Themed.h1>About</Themed.h1>
+        <Box>
+          <div>
+            <Age />
+          </div>
+          <div>
+            <Text sx={{ fontSize: 2 }}>🌴 Living in Florida</Text>
+          </div>
+        </Box>
+        <Section>
+          <Themed.h2>Disc Golf</Themed.h2>
+          <Themed.p>
+            I love disc golf. I started playing in 2001 in Manitowoc, WI, and
+            I've been playing ever since.
+          </Themed.p>
+          <Themed.p>
+            Now I play in golf in the Jacksonville, FL area. I play mostly in
+            leagues or for fun, but I have played some professional golf, with
+            very limited success.
+          </Themed.p>
+          <Themed.p>
+            <Link href="https://www.pdga.com/player/75372">PDGA #75372</Link>).
+          </Themed.p>
+        </Section>
+        <Section>
+          <Themed.h2>Software</Themed.h2>
+          <Themed.p>
+            I write software professionally and for fun. Most of my work has
+            revolved around web development, which means I use quite a lot of
+            JavaScript. I think it would be most accurate to label myself a
+            JavaScript Developer.
+          </Themed.p>
+          <Themed.p>
+            Because I've been at this a while, though, I'm also a full stack
+            developer. I've done quite a lot with Java (mostly Spring Boot) and
+            AWS.
+          </Themed.p>
+          <Themed.p>
+            I enjoy writing clean, optimal and well tested code (ty{" "}
+            <Link href="https://cypress.io">Cypress</Link>).
+          </Themed.p>
+        </Section>
+        <Section>
+          <Themed.h2>Things I Work With</Themed.h2>
+          <Skills />
+        </Section>
+      </Box>
+    </MainLayout>
+  );
+};
 
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
-const IndexPage = () => (
-  <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
-    </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
-  </Layout>
-)
-
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="Home" />
-
-export default IndexPage
+export default IndexPage;
