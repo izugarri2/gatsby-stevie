@@ -1,7 +1,9 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ * @type {import('gatsby').GatsbyConfig}
  */
-// gatsby-config.js
-
+module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.yourdomain.tld`,
+  },
+  plugins: [],
+}
